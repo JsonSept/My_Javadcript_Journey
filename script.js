@@ -34,3 +34,46 @@ console.log(remainder)
 let x = num1 / num2
 console.log(x)
 console.log("num1/num2 = `8` remainder `2`")
+// <------------------------------------------------------------------------------------------------------------------------>
+
+
+// B. Task 2:Data Types
+// 1. Define the following data types with your own contents[ 'integer', 'decimal', 'string', 'array'(minimum: 3 items), 'Object'(minimum: 4 values)]
+
+// Integers
+let integer = 15
+// Decimals
+let decimal = 9.87
+// String
+let string = "My name is Jason"
+// Array
+let fruit = ["apple", "strawberry", "kiwi"];
+
+// Object
+let person = {
+    name: 'Jason',
+    age: 25,
+    hobbie: 'gaming'
+}
+// 2. Once you’ve created the variables, display them to the console
+console.log(integer)
+console.log(decimal)
+console.log(string)
+console.log(fruit)
+console.log(person)
+// 3. Use the ‘typeof’ function to check each variable
+console.log(typeof integer)
+console.log(typeof decimal)
+console.log(typeof'Jason')
+console.log(typeof fruit)
+console.log(typeof person)
+
+// 4. Create an array with numbers and strings. Comment what data type you expect this tobe. Then use the ‘typeof’ function on this array
+const arrayNum = [25 , 'Jason' , 98 , 'September']; //object
+console.log(typeof arrayNum)
+// 5. Create a null variable and an undefined variable
+let jay = null
+let js = 
+console.log(jay)
+console.log(js)
+// <----------------------------------------------------------------------------------------------------------------------------------------------------------------------->
